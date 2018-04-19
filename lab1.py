@@ -26,6 +26,7 @@ def create_array(n):
 
 
 def matrix_print(a):
+    # print(' '.join((map(str, a))))
     for i in range(len(a)):
         print(a[i])
 
